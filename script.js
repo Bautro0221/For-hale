@@ -35,3 +35,8 @@ function closeAllSubMenus(){
     ul.previousElementSibling.classList.remove('rotate')
   })
 }
+const audio = document.getElementById('myAudio');
+audio.play().catch(error => {
+    console.error("Autoplay failed:", error);
+});
+

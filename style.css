@@ -1217,3 +1217,54 @@ main p {
     }
   }
 }
+.paper {
+  position: absolute;
+  top: 50%;      
+  left: 50%;     
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 800px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 2px solid #d1b88a;
+  border-radius: 10px;
+  background-image: url('https://www.transparenttextures.com/patterns/brown-paper.png');
+  background-size: cover;
+  color: #4a3f35;
+  height: 600px;
+  overflow-y: auto;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #b56c4d; 
+  margin-bottom: 20px;
+}
+
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-indent: 40px; 
+}
+
+.signature {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: #9e5c4f;
+  text-align: right;
+  margin-top: 40px;
+}
+
+.date {
+  font-size: 14px;
+  text-align: left;
+  color: #7a5a4e; 
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
